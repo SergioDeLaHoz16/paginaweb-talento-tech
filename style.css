@@ -1,38 +1,141 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 50px;
+/* Estilo general */
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    padding: 30px;
+    background-image: url('https://talentotechbogota.co/opengraph-image.png?7585abe254eaba33');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-header{
-    background-color: #03573d;
+/* Estilo del encabezado */
+header {
     color: white;
     padding: 20px;
     text-align: center;
     border-radius: 8px;
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    background-color: rgba(31, 28, 109, 0.815); /* Fondo semi-transparente */
 }
 
-section{
-    background-color: rgb(247, 247, 247);
+/* Secciones generales */
+section {
+    
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    background-color: rgba(31, 28, 109, 0.815); /* Fondo semi-transparente */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
 }
+
+/* Navegación */
 nav {
     margin-top: 20px;
-    background-color: #03573d;
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    background-color: #1f1c6dd0; /* Fondo semi-transparente */
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: white;
     padding: 20px;
     font-weight: 600;
-    text-decoration: #03573d;
 }
-a:hover{
-    color:#1ee0a3;
-    padding: 5px;
 
+a:hover {
+    color: #bab8fad0;
+    padding: 5px;
+}
+
+/* Formulario de contacto */
+.container-form {
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    background-color: rgba(31, 28, 109, 0.815); /* Fondo semi-transparente */
+    border-radius: 8px;
+}
+
+.titulo-form {
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Estilo de etiquetas y campos del formulario */
+label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Espacio entre cada campo */
+    box-sizing: border-box;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+/* Fieldset y botones */
+fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: #3b35f1d0;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30%;
+}
+
+input[type="submit"]:hover {
+    background-color: #020114d0;
+}
+
+input[type="reset"] {
+    background-color: #121129d0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30%;
+}
+
+input[type="reset"]:hover {
+    background-color: #251dfdd0;
+}
+
+/* Botones del formulario */
+.botones {
+    display: flex;
+    gap: 10px; /* Espacio entre los botones */
+    justify-content: center;
+    margin-top: 20px;
+}
+table{
+    background-color: white;
+    color: black;
 }
